@@ -24,7 +24,7 @@ body h1{
 
 .landing{
     height: 100vh;
-    background: url(./Assets/MeBackground.png);
+    background: linear-gradient(rgba(35, 32, 43, 0.5), rgba(0, 0, 0, 0.5)), url(./Assets/keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
     display: flex;
@@ -38,8 +38,9 @@ body h1{
     justify-content: center;
     flex-direction: column;
     height:100vh;
-    align-self: end;
+    align-self: start;
     align-items: center;
+    margin-bottom: 50px;
     
 }
 
