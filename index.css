@@ -1,0 +1,327 @@
+*{
+    margin: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+
+body h1{
+    text-align: center;
+}
+
+.wrapper{
+}
+
+.landing{
+    height: 100vh;
+    background: url(./Assets/MeBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    align-self: end;
+    align-items: center;
+    
+}
+
+.landing h1{
+    font-size: 30px;
+
+}
+
+mark.purple{
+    color: rgb(105, 1, 169);
+    background-color: transparent;
+}
+
+.landing button{
+    margin: 20px 0 0 0;
+    transition: all .5s ease;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 5px 20px 5px 20px;
+    outline: none;
+    width: 200px;
+    align-items: center;
+
+}
+
+.landing button:hover{
+    background-color: rgb(105, 1, 169);
+    border: 1px solid rgb(105, 1, 169);
+    box-shadow: 0 0 10px rgb(105, 1, 169), 0 0 40px rgb(105, 1, 169), 0 0 80px rgb(105, 1, 169);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(105, 1, 169, 0.257);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index:100;
+    border-radius: 10px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header:hover{
+    background-color: rgba(105, 1, 169, 0.942);
+    box-shadow: 0 0 10px rgb(105, 1, 169), 0 0 40px rgb(7, 0, 88)
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0;
+}
+
+.nav-container-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+
+
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    opacity: 0.9;
+    background-image: radial-gradient(#004487 0.55px, #000000 0.55px);
+    background-size: 20px 20px;;
+}
+
+.about-me-title{
+    align-content: center;
+    margin: 30px 0;
+}
+
+.about-me-content-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 38, 38, .6);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+.about-me{
+    text-align: center;
+    width: 400px;
+    border: solid rgb(105, 1, 169);;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-me-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-me-icons p{
+    margin-top: 5px;
+}
+
+.about-me-icons div{
+    margin: 60px;
+    text-align: center;
+}
+
+
+.about-me-icons img{
+    width: 100px;
+    height: 100px;
+    image-rendering: pixelated;
+}
+
+.about-me-img img {
+    width: 275px;
+    height: 400px;
+    margin-left: -23px;
+}
+
+
+.portfolio-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.portfolio-title{
+    align-content: center;
+}
+
+.portfolio-content-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px;
+    text-align: center;
+}
+
+.gold-badge-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.gold-badge-container div{
+    margin-bottom: 30px;
+}
+
+.gold-badge{
+    margin-bottom: 40px;
+}
+
+
+.badge-icon{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail-icon{
+    width: 120px;
+    height: 60px;
+    border: solid 1px white;
+}
+
+.blue-badge{
+}
+
+.red-badge{
+}
+
+
+.contact-me-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    opacity: 0.9;
+    background-image: radial-gradient(#004487 0.55px, #000000 0.55px);
+    background-size: 20px 20px;;
+    margin-bottom: 200px;
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    opacity: 0.9;
+    background-image: radial-gradient(#004487 0.55px, #000000 0.55px);
+    background-size: 20px 20px;;
+
+}
+
+.form button{
+    margin: 20px 0 0 0;
+    transition: all .5s ease;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 5px 20px 5px 20px;
+    outline: none;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form button:hover{
+    background-color: rgb(105, 1, 169);
+    border: 1px solid rgb(105, 1, 169);
+}
+
+.form input{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.form textarea{
+    width: 350px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.back-to-top button{
+    display: flex;
+    margin: 20px 0 0 0;
+    transition: all .5s ease;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 5px 20px 5px 20px;
+    outline: none;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.back-to-top button:hover{
+    background-color: rgb(105, 1, 169);
+    border: 1px solid rgb(105, 1, 169);
+    box-shadow: 0 0 10px rgb(105, 1, 169), 0 0 40px rgb(105, 1, 169), 0 0 80px rgb(105, 1, 169);
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
